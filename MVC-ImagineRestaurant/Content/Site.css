@@ -1,4 +1,14 @@
-﻿body {
+﻿
+/**
+    Google fonts imported
+*/
+@import url('https://fonts.googleapis.com/css?family=Delius+Unicase|Indie+Flower|Karla|Merriweather+Sans|Pacifico|Quicksand|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Delius+Unicase');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+/**
+    Other Stylings go below
+*/
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -21,4 +31,38 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+/*
+    Styling for Index.cshtml goes here
+*/
+.container.img-responsive{
+    background-image: url(../Assets/images/IndexPageWallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*height:490px;
+    width:1920px;*/
+}
+
+.cafeSocietyText {
+    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+    color: white;
+    position: relative;
+    z-index: 1000;
+    text-shadow: 5px 5px 5px #35bee4, -5px -5px 5px #41d816;
+}
+
+.restaurantTextBody.col-lg-pull-5 {
+    margin-top: 100px;
+    font-family: Verdana,sans-serif;
+    font-size: 40px;
+    color: white;
+    position: center;
+    text-shadow: 1px 1px 5px #35bee4, -1px -1px 5px #41d816;
+}
+
+.linkDecoration{
+    font-size:23px;
+    font-family:'Russo One', sans-serif;
 }
