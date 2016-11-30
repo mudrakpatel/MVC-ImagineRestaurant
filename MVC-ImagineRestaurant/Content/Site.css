@@ -114,6 +114,12 @@ textarea {
 .img-responsive.instagramIcon:hover{
     cursor:pointer;
 }
+.col-md-offset.phoneNumberDiv{
+    margin-top:50px;
+    color:black;
+    background-color:white;
+    font-size:35px;
+}
 /**
     Styling for Index.cshtml page for Menu_List view goes here
 */
