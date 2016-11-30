@@ -87,7 +87,7 @@ textarea {
     background-size:cover;
     height:80px;
     width:80px;
-    /*position:fixed;*/
+    position:fixed;
 }
 .img-responsive.facebookIcon:hover{
     cursor:pointer;
